@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: rgb(4,10,8);
+  background: linear-gradient(90deg, rgba(4,10,8,1) 0%, rgba(11,18,40,1) 68%, rgba(20,13,40,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(125, 125, 125);
+  text-align: center;
+}
+
+.content {
+  background-color: rgba(176, 177, 177, 0.051);
+  padding: 20px 20px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.days {
+  margin: 10px 0 0;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.clock, .time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.time span {
+  margin: 0 10px;
+}
+
+.time p {
+  margin: 0;
+}
+
+.date {
+  color: rgb(63, 89, 77);
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.day {
+  color: rgb(133, 158, 146);
+  font-size: 12px;
+  background-color: rgba(133, 134, 134, 0.09);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+
+  }
+}
